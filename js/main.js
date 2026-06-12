@@ -52,7 +52,22 @@ var I18N = {
   "Меню":"Menu","Розділи":"Sections","Конференції":"Conferences",
   "Календар подій":"Events calendar","Найближчі заходи та події Наукового центру":"Upcoming activities and events of the Research Center",
   "Оберіть дату у календарі, щоб переглянути події цього дня":"Pick a date in the calendar to view events of that day",
-  "Показати всі події":"Show all events","На обрану дату подій немає":"No events on the selected date"
+  "Показати всі події":"Show all events","На обрану дату подій немає":"No events on the selected date",
+  "Наука":"Science","Наука та інновації":"Science and Innovation",
+  "Наукова діяльність університету — це дослідження, підготовка наукових кадрів, інновації та партнерство. Оберіть розділ, щоб дізнатися більше.":"The university’s research activity covers research, training of academic staff, innovation and partnership. Choose a section to learn more.",
+  "Наукові школи":"Scientific schools",
+  "Аспірантура та докторантура":"PhD & Doctoral studies",
+  "Науково-дослідні роботи":"Research projects",
+  "Періодичні видання університету":"University periodicals",
+  "Науково-технічна бібліотека":"Scientific & technical library",
+  "Інституційний репозитарій":"Institutional repository",
+  "Рада молодих вчених":"Council of young scientists",
+  "Стартап-проєкти":"Startup projects",
+  "Патенти університету":"University patents",
+  "Заплановані наукові заходи":"Planned scientific events",
+  "Детальніше на сайті університету":"More on the university website",
+  "Більше інформації":"More information",
+  "До розділу «Наука»":"Back to «Science»"
 };
 
 function currentLang(){ return localStorage.getItem('lang') || 'uk'; }
