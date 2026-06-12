@@ -130,7 +130,9 @@ $(function () {
     return parseInt(p[2], 10) + ' ' + MON[parseInt(p[1], 10) - 1] + ' ' + p[0];
   }
 
+  var newsById = {};
   function newsCard(n) {
+    newsById[n.id] = n;
     return '' +
       '<article class="news-card" data-cat="' + n.category + '">' +
         '<div class="thumb" style="background-image:url(\'' + n.img + '\');background-size:cover;background-position:center">' +
@@ -140,7 +142,7 @@ $(function () {
           '<span class="date">' + formatDate(n.date) + '</span>' +
           '<h3>' + n.title + '</h3>' +
           '<p>' + n.text + '</p>' +
-          '<a href="news.html" class="more">Читати далі →</a>' +
+          '<a href="#" class="more" data-id="' + n.id + '">Читати далі →</a>' +
         '</div>' +
       '</article>';
   }
@@ -171,6 +173,26 @@ $(function () {
   }
 
   if ($newsHome.length || $newsFull.length) {
+    // —— Модальне вікно повної новини ——
+    var $newsModal = $('<div id="newsModal"></div>').appendTo('body');
+    if ($.fn.dialog) {
+      $newsModal.dialog({ autoOpen: false, modal: true, width: Math.min(620, $(window).width() - 40), show: { effect: 'fade', duration: 180 }, hide: { effect: 'fade', duration: 120 } });
+    }
+    function openNews(n) {
+      if (!$.fn.dialog) { return; }
+      $newsModal.html(
+        '<img src="' + n.img + '" alt="" style="width:100%;max-height:280px;object-fit:cover;border-radius:8px">' +
+        '<p style="color:#5b6b7b;margin:.6rem 0 .3rem"><i class="fa-solid fa-calendar"></i> ' + formatDate(n.date) + ' &nbsp;•&nbsp; ' + n.category + '</p>' +
+        '<p>' + n.text + '</p>'
+      );
+      $newsModal.dialog('option', 'title', n.title);
+      $newsModal.dialog('open');
+    }
+    $(document).on('click', '.news-card .more', function (e) {
+      e.preventDefault();
+      var n = newsById[$(this).data('id')];
+      if (n) { openNews(n); }
+    });
     $.getJSON('data/news.json')
       .done(function (data) {
         if ($newsHome.length) {
@@ -241,16 +263,13 @@ $(function () {
 
   // ====== ІНТЕРАКТИВНА КАРТА (Leaflet) ======
   if ($('#leafletMap').length && window.L) {
-    var map = L.map('leafletMap').setView([49.5883, 34.5514], 14);
+    var map = L.map('leafletMap').setView([49.5757308, 34.5680536], 16);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19, attribution: '© OpenStreetMap'
     }).addTo(map);
-    var pts = [
-      [49.5883, 34.5514, '<b>Головний корпус</b><br>вул. Наукова, 12'],
-      [49.5846, 34.5610, '<b>Науковий центр — лабораторії</b><br>корпус №3'],
-      [49.5921, 34.5452, '<b>Наукова бібліотека</b><br>вул. Освітня, 5']
-    ];
-    pts.forEach(function (p) { L.marker([p[0], p[1]]).addTo(map).bindPopup(p[2]); });
+    L.marker([49.5757308, 34.5680536]).addTo(map)
+      .bindPopup('<b>Національний університет «Полтавська політехніка імені Юрія Кондратюка»</b><br>проспект Першотравневий, 24, м. Полтава')
+      .openPopup();
   }
 
   // —— Галерея: лайтбокс на jQuery UI dialog ——

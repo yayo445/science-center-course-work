@@ -188,3 +188,13 @@ body.dark .btn-outline-primary{color:#7cc2ff;border-color:#33526f}
 @media (max-width:768px){
   .events-wrap{grid-template-columns:1fr}
 }
+
+/* === Виправлення: обрізання тексту картки новини + модальне вікно === */
+.news-card .body p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.news-card .more{cursor:pointer}
+#newsModal img{display:block;margin-bottom:.4rem}
+#newsModal p{line-height:1.6}
+body.dark .ui-dialog{background:#15263c;color:#e8eef6;border:1px solid #2a3f5f}
+body.dark .ui-dialog .ui-dialog-titlebar{background:#0b1f3b;color:#fff;border-color:#2a3f5f}
+body.dark .ui-dialog #newsModal{color:#e8eef6}
+body.dark .ui-widget-overlay{opacity:.6}
