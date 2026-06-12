@@ -198,3 +198,7 @@ body.dark .ui-dialog{background:#15263c;color:#e8eef6;border:1px solid #2a3f5f}
 body.dark .ui-dialog .ui-dialog-titlebar{background:#0b1f3b;color:#fff;border-color:#2a3f5f}
 body.dark .ui-dialog #newsModal{color:#e8eef6}
 body.dark .ui-widget-overlay{opacity:.6}
+
+/* Посилання на джерело новини */
+.news-card .src-link{display:inline-block;margin-left:14px;color:var(--teal);font-weight:600;text-decoration:none}
+.news-card .src-link:hover{text-decoration:underline}

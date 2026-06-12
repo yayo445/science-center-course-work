@@ -43,6 +43,8 @@ var I18N = {
   "Актуальні події, анонси та досягнення. Використайте фільтр за категоріями":"Current events, announcements and achievements. Use the category filter",
   "Усі":"All","Досягнення":"Achievements","Гранти":"Grants","Навчання":"Training",
   "Читати далі →":"Read more →",
+  "Джерело →":"Source →",
+  "Джерело на сайті університету":"Source on the university website",
   "Зв’яжіться з нами":"Get in touch",
   "Запитання щодо співпраці, досліджень або навчання? Напишіть нам — ми відповімо якнайшвидше.":"Questions about cooperation, research or studies? Write to us — we will reply as soon as possible.",
   "Ім’я *":"Name *","Тема":"Subject","Повідомлення *":"Message *",
@@ -143,6 +145,7 @@ $(function () {
           '<h3>' + n.title + '</h3>' +
           '<p>' + n.text + '</p>' +
           '<a href="#" class="more" data-id="' + n.id + '">Читати далі →</a>' +
+          (n.url ? '<a href="' + n.url + '" class="src-link" target="_blank" rel="noopener">Джерело →</a>' : '') +
         '</div>' +
       '</article>';
   }
@@ -184,7 +187,8 @@ $(function () {
       $newsModal.html(
         '<img src="' + n.img + '" alt="" style="width:100%;max-height:280px;object-fit:cover;border-radius:8px">' +
         '<p style="color:#5b6b7b;margin:.6rem 0 .3rem"><i class="fa-solid fa-calendar"></i> ' + formatDate(n.date) + ' &nbsp;•&nbsp; ' + n.category + '</p>' +
-        bodyHtml
+        bodyHtml +
+        (n.url ? '<p style="margin-top:.9rem"><a href="' + n.url + '" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fa-solid fa-up-right-from-square"></i> Джерело на сайті університету</a></p>' : '')
       );
       $newsModal.dialog('option', 'title', n.title);
       $newsModal.dialog('open');
