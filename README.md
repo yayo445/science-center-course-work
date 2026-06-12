@@ -30,7 +30,6 @@ portal/
 - 🌐 Перемикач мов UA / EN
 - 🗺️ Інтерактивна карта з маркерами корпусів (Leaflet + OpenStreetMap)
 ```
-
 ## Технології
 - HTML5, CSS3 (Flexbox, Grid, media queries)
 - JavaScript (ES5/ES6), jQuery 3.7, jQuery UI 1.13

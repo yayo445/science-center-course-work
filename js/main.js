@@ -2,12 +2,12 @@
 
 // ====== Словник перекладу UA -> EN ======
 var I18N = {
-  "ЗАКЛАД ВИЩОЇ ОСВІТИ":"HIGHER EDUCATION INSTITUTION",
+  "ПОЛТАВСЬКА ПОЛІТЕХНІКА":"POLTAVA POLYTECHNIC",
   "Головна":"Home","Про сайт":"About","Галерея картинок":"Image Gallery","Галерея":"Gallery",
   "Новини":"News","Події":"Events","Контакти":"Contacts",
   "Дізнатися більше":"Learn more","Новини центру":"Center news","Долучитися":"Join us",
   "Усі новини":"All news","Надіслати":"Send",
-  "Науковий центр університету":"University Research Center",
+  "Науковий центр Полтавської політехніки":"Research Center of Poltava Polytechnic",
   "Сучасні дослідження та інновації світового рівня":"World-class research and innovation",
   "Наука без кордонів":"Science without borders",
   "Міжнародна співпраця, гранти та проєкти":"International cooperation, grants and projects",
@@ -26,7 +26,7 @@ var I18N = {
   "Інновації":"Innovation",
   "Впровадження результатів досліджень у практику.":"Implementation of research results into practice.",
   "Про Науковий центр":"About the Research Center",
-  "Науковий центр закладу вищої освіти — це структурний підрозділ, що координує науково-дослідну діяльність, сприяє розвитку науки та впровадженню інновацій.":"The Research Center of the higher education institution is a unit that coordinates research activities and promotes science and innovation.",
+  "Науковий центр Національного університету «Полтавська політехніка імені Юрія Кондратюка» — це структурний підрозділ, що координує науково-дослідну діяльність, сприяє розвитку науки та впровадженню інновацій.":"The Research Center of the National University \"Yuri Kondratyuk Poltava Polytechnic\" is a unit that coordinates research activities and promotes science and innovation.",
   "Ми об’єднуємо досвідчених науковців, молодих дослідників та студентів, створюючи умови для якісних досліджень, публікацій та міжнародної співпраці.":"We unite experienced scientists, young researchers and students, creating conditions for quality research, publications and international cooperation.",
   "Сучасна матеріально-технічна база":"Modern facilities and equipment",
   "Підтримка грантових проєктів":"Support for grant projects",
