@@ -202,3 +202,26 @@ body.dark .ui-widget-overlay{opacity:.6}
 /* Посилання на джерело новини */
 .news-card .src-link{display:inline-block;margin-left:14px;color:var(--teal);font-weight:600;text-decoration:none}
 .news-card .src-link:hover{text-decoration:underline}
+
+
+/* ===== Наука: сітка плиток ===== */
+.sci-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;margin:28px 0 10px}
+.sci-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  min-height:170px;padding:26px 18px;background:var(--navy);color:var(--accent);border-radius:var(--radius);
+  text-decoration:none;font-weight:700;line-height:1.3;box-shadow:0 6px 18px rgba(11,31,59,.18);
+  transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.sci-tile:hover{transform:translateY(-5px);background:var(--blue);box-shadow:0 12px 26px rgba(11,31,59,.30);color:#fff}
+.sci-tile-ico{font-size:2rem;margin-bottom:14px;opacity:.95}
+.sci-tile-title{font-size:1.02rem}
+.sci-head-ico{display:inline-flex;align-items:center;justify-content:center;width:78px;height:78px;border-radius:50%;
+  background:var(--navy);color:var(--accent);font-size:2rem;box-shadow:0 6px 18px rgba(11,31,59,.18)}
+.sci-content{background:#fff;border:1px solid #e6ecf5;border-radius:var(--radius);padding:30px 34px;margin-top:24px;
+  box-shadow:0 4px 16px rgba(11,31,59,.06);line-height:1.7;color:var(--dark)}
+.sci-content .sub-h{color:var(--blue);font-size:1.15rem;font-weight:700;margin:1.2rem 0 .6rem}
+.sci-content .rich-list{padding-left:1.2rem}
+.sci-content .rich-list li{margin:.35rem 0}
+.info-table{width:100%;border-collapse:collapse;margin:1rem 0}
+.info-table th,.info-table td{border:1px solid #e0e7f1;padding:10px 14px;text-align:left}
+.info-table thead th{background:var(--navy);color:#fff}
+.info-table tbody tr:nth-child(even){background:var(--light)}
+@media(max-width:575px){.sci-grid{grid-template-columns:1fr 1fr;gap:12px}.sci-tile{min-height:130px;padding:18px 10px}.sci-tile-title{font-size:.9rem}.sci-content{padding:22px 18px}}

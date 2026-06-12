@@ -237,6 +237,7 @@ $(function () {
           '<h3>' + e.title + '</h3>' +
           '<p class="ev-meta"><i class="fa-solid fa-clock"></i> ' + e.time + ' &nbsp; <i class="fa-solid fa-location-dot"></i> ' + e.place + '</p>' +
           '<p>' + e.text + '</p>' +
+          (e.url ? '<p class="ev-meta"><a href="' + e.url + '" target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Більше інформації</a></p>' : '') +
         '</div></article>';
     }
     function renderEvents(list) {

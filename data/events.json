@@ -1,50 +1,128 @@
 [
   {
-    "title": "Всеукраїнська наукова конференція молодих учених",
-    "date": "2026-06-18",
-    "time": "10:00",
-    "place": "Головний корпус, ауд. 312",
+    "title": "VІ Учнівська конференція «Філологія очима молоді»",
+    "date": "2026-03-12",
+    "time": "09:00",
+    "place": "Полтавська політехніка",
     "category": "Конференція",
-    "text": "Доповіді аспірантів та студентів за напрямами природничих і технічних наук."
+    "text": "Учнівська науково-практична конференція з філології.",
+    "url": "https://nupp.edu.ua/event/vi-uchnivska-konferentsiya-filologiya-ochima-molodi.html"
   },
   {
-    "title": "Воркшоп «Академічне письмо та публікації Scopus»",
-    "date": "2026-06-25",
-    "time": "14:30",
-    "place": "Наукова бібліотека, зал №2",
-    "category": "Навчання",
-    "text": "Практичні поради щодо підготовки статей до міжнародних видань."
-  },
-  {
-    "title": "День відкритих дверей наукового центру",
-    "date": "2026-07-05",
-    "time": "11:00",
-    "place": "Лабораторний корпус №3",
-    "category": "Подія",
-    "text": "Екскурсії лабораторіями, демонстрація обладнання та зустріч із науковцями."
-  },
-  {
-    "title": "Семінар із грантового фінансування Horizon Europe",
-    "date": "2026-07-12",
-    "time": "15:00",
-    "place": "Головний корпус, конференц-зала",
-    "category": "Гранти",
-    "text": "Огляд можливостей фінансування та підготовка заявок на гранти ЄС."
-  },
-  {
-    "title": "Літня школа молодого дослідника",
-    "date": "2026-07-20",
+    "title": "Студентський науковий гурток «Формування стратегії розвитку особистості в цифровому освітньому просторі: Україна–ЄС»",
+    "date": "2026-03-09",
     "time": "09:30",
-    "place": "Кампус університету",
+    "place": "Полтавська політехніка",
     "category": "Освіта",
-    "text": "Тижневий інтенсив із методології досліджень та роботи з даними."
+    "text": "Заняття гуртка в межах проєкту Erasmus+ Jean Monnet (101127592).",
+    "url": "https://nupp.edu.ua/event/provedennya-zanyat-studentskogo-naukovogo-gurtka-formuvannya-strategii-rozvitku-osobistosti.html"
   },
   {
-    "title": "Презентація результатів спільного проєкту з партнерами",
-    "date": "2026-08-03",
-    "time": "13:00",
-    "place": "Головний корпус, ауд. 105",
-    "category": "Партнерство",
-    "text": "Підсумки міжнародної співпраці та плани на наступний навчальний рік."
+    "title": "Воркшоп «ШІ для робочих завдань: мистецтво створення запитів»",
+    "date": "2026-03-24",
+    "time": "09:00",
+    "place": "Полтавська політехніка",
+    "category": "Воркшоп",
+    "text": "Практичний воркшоп із застосування штучного інтелекту у робочих завданнях.",
+    "url": "https://nupp.edu.ua/event/vorkshop-shi-dlya-robochikh-zavdan-mistetstvo-stvorennya-zapitiv.html"
+  },
+  {
+    "title": "Всеукраїнська науково-практична конференція «Синергетичний підхід у розвитку та становленні особистості»",
+    "date": "2026-04-23",
+    "time": "09:00",
+    "place": "Полтавська політехніка",
+    "category": "Конференція",
+    "text": "Всеукраїнська науково-практична конференція.",
+    "url": "https://nupp.edu.ua/event/vseukrainska-naukovo-praktichna-konferentsiya-sinergetichniy-pidkhid-u-rozvitku-ta-stanovlenni.html"
+  },
+  {
+    "title": "ХІІІ Міжнародна науково-практична Інтернет-конференція «Організаційно-правові аспекти публічного управління»",
+    "date": "2026-04-23",
+    "time": "09:15",
+    "place": "Полтавська політехніка",
+    "category": "Міжнародна",
+    "text": "Міжнародна Інтернет-конференція з питань публічного управління.",
+    "url": "https://nupp.edu.ua/event/khiii-mizhnarodna-naukovo-praktichna-internet-konferentsiya-organizatsiyno-pravovi-aspekti.html"
+  },
+  {
+    "title": "ІХ Всеукраїнська науково-технічна конференція «Створення, експлуатація і ремонт автомобільного транспорту та будівельної техніки»",
+    "date": "2026-04-30",
+    "time": "10:30",
+    "place": "Полтавська політехніка",
+    "category": "Конференція",
+    "text": "Всеукраїнська науково-технічна конференція.",
+    "url": "https://nupp.edu.ua/event/ikh-vseukrainska-naukovo-tekhnichna-konferentsiya-stvorennya-yekspluatatsiya-i-remont.html"
+  },
+  {
+    "title": "Науковий круглий стіл «Теоретико-практичні проблеми і застосування математичного моделювання»",
+    "date": "2026-04-30",
+    "time": "10:45",
+    "place": "Полтавська політехніка",
+    "category": "Круглий стіл",
+    "text": "Круглий стіл з математичного моделювання у науці та техніці.",
+    "url": "https://nupp.edu.ua/event/naukoviy-krugliy-stil-profesoriv-vikladachiv-aspirantiv-ta-studentiv-universitetu-teoretiko.html"
+  },
+  {
+    "title": "Круглий стіл «Інноваційні рішення в енергетичному комплексі України»",
+    "date": "2026-04-30",
+    "time": "10:45",
+    "place": "Полтавська політехніка",
+    "category": "Круглий стіл",
+    "text": "Обговорення інноваційних рішень у енергетиці.",
+    "url": "https://nupp.edu.ua/event/krugliy-stil-innovatsiyni-rishennya-v-yenergetichnomu-kompleksi-ukraini.html"
+  },
+  {
+    "title": "Круглий стіл «Цифрова трансформація бізнесу: ШІ як драйвер зростання»",
+    "date": "2026-05-08",
+    "time": "11:30",
+    "place": "Полтавська політехніка",
+    "category": "Круглий стіл",
+    "text": "Запрошуємо представників малого та середнього бізнесу обговорити актуальні питання цифрової трансформації.",
+    "url": "https://nupp.edu.ua/event/krugliy-stil-tsifrova-transformatsiya-biznesu-shi-yak-drayver-zrostannya.html"
+  },
+  {
+    "title": "ХІІ Міжнародна науково-практична конференція «Інноваційні технології у контексті іншомовної підготовки фахівця»",
+    "date": "2026-05-07",
+    "time": "15:00",
+    "place": "Полтавська політехніка",
+    "category": "Міжнародна",
+    "text": "Міжнародна конференція з іншомовної підготовки фахівців.",
+    "url": "https://nupp.edu.ua/event/xii-mizhnar-naukovo-praktichn-konf-innovatsiyni-tekhnolog-u-konteksti-inshomovnoi-pidgotovki-fakhiv.html"
+  },
+  {
+    "title": "Х Міжнародна науково-практична конференція «Економічна безпека: держава, регіон, підприємство»",
+    "date": "2026-05-13",
+    "time": "09:35",
+    "place": "Полтавська політехніка",
+    "category": "Міжнародна",
+    "text": "Міжнародна конференція з питань економічної безпеки.",
+    "url": "https://nupp.edu.ua/event/kh-mizhnarodna-naukovo-praktichna-konferentsiya-yekonomichna-bezpeka-derzhava-region-pidpriemstvo.html"
+  },
+  {
+    "title": "78-ма наукова конференція професорів, викладачів, наукових працівників, аспірантів та студентів університету",
+    "date": "2026-05-15",
+    "time": "11:00",
+    "place": "Полтавська політехніка",
+    "category": "Конференція",
+    "text": "Щорічна підсумкова наукова конференція університету (15–22 травня).",
+    "url": "https://nupp.edu.ua/event/78-ma-naukova-konferentsiya-profesoriv-vikladachiv-naukovikh-pratsivnikiv.html"
+  },
+  {
+    "title": "Х Всеукраїнська науково-практична конференція «Архітектурний рисунок у контексті професійної освіти»",
+    "date": "2026-05-22",
+    "time": "09:00",
+    "place": "Полтавська політехніка",
+    "category": "Конференція",
+    "text": "Конференція студентів, молодих учених і науково-педагогічних працівників.",
+    "url": "https://nupp.edu.ua/event/x-vnpk-studentiv-mv-i-naukovo-ped-pratsivnikiv-arkhitekturniy-risunok-u-konteksti-profesiynoi-osviti.html"
+  },
+  {
+    "title": "ІV Міжнародна науково-практична Інтернет-конференція «Сталий розвиток: виклики та загрози в умовах сучасних реалій»",
+    "date": "2026-06-04",
+    "time": "09:00",
+    "place": "Полтавська політехніка",
+    "category": "Міжнародна",
+    "text": "Міжнародна Інтернет-конференція зі сталого розвитку.",
+    "url": "https://nupp.edu.ua/event/iv-mizhnarodna-naukova-praktichna-internet-konferentsiya-staliy-rozvitok-vikliki.html"
   }
 ]
