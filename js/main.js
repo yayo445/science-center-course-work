@@ -180,10 +180,11 @@ $(function () {
     }
     function openNews(n) {
       if (!$.fn.dialog) { return; }
+      var bodyHtml = (n.full && n.full.length) ? $.map(n.full, function (par) { return '<p>' + par + '</p>'; }).join('') : '<p>' + n.text + '</p>';
       $newsModal.html(
         '<img src="' + n.img + '" alt="" style="width:100%;max-height:280px;object-fit:cover;border-radius:8px">' +
         '<p style="color:#5b6b7b;margin:.6rem 0 .3rem"><i class="fa-solid fa-calendar"></i> ' + formatDate(n.date) + ' &nbsp;•&nbsp; ' + n.category + '</p>' +
-        '<p>' + n.text + '</p>'
+        bodyHtml
       );
       $newsModal.dialog('option', 'title', n.title);
       $newsModal.dialog('open');
